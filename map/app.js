@@ -37,3 +37,6 @@ const names = newPepole.map((person) => `<h1>${person.firstName}</h1>`);
 const result = document.getElementById("result");
 result.innerHTML = names.join('');
 
+
+
+
