@@ -14,5 +14,5 @@ const newItems = Array.from({length:pages},(_,index)=>{
     const tempItems = items.slice(start,start+itemsPerpage)
     return tempItems
 })
-
+//log
 console.log(newItems);
